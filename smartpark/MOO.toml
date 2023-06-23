@@ -1,0 +1,15 @@
+[broker]
+broker = "127.0.0.1"  # mosquitto mqtt server
+port = 1883
+topic-root = 'carpark' #MS teams team
+topic-qualifier = 'controller' # MS teams channel
+name = 'parking-lot' # the name of the controller / channel conversation
+location = 'MOO' # location of the discussion
+sensor = 'sensor1'
+
+[sensor1]
+name= 'entry'
+
+[MOO]
+name = "Moondalup City Square Parking"
+total-spaces = 192
